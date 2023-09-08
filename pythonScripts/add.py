@@ -2,8 +2,8 @@ import os
 
 # Define the paths to the NLU and domain files
 curr_dir = os.getcwd()
-nlu_file_path = os.path.join(os.path.dirname(curr_dir),'data','nlu.yml')  # Update with your actual file path
-domain_file_path = os.path.join(os.path.dirname(curr_dir),'domain.yml')  # Update with your actual file path
+nlu_file_path = os.path.join(os.path.dirname(curr_dir),'data','nlu.yml') 
+domain_file_path = os.path.join(os.path.dirname(curr_dir),'domain.yml')  
 rules_file_path = os.path.join(os.path.dirname(curr_dir),'data','rules.yml')
 # cannot use \t have to use 2 spacess
 #-------------------------------------------------------------------------------------------

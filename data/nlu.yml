@@ -118,3 +118,168 @@ nlu:
     - How much do I need to pay for thesis submission?
     - Is there a fee for submitting a thesis?
     - Can you provide information on the thesis submission fee structure?
+
+- intent: inquire_about_regular_mode_of_study
+  examples: |
+    - What are the criteria for students to be eligible for the regular mode of study?
+    - Which mode can i take if i have X grade?
+    - Which mode can i take if i have F grade?
+    - Which mode can i take if i have R.A grade?
+    - Are there any eligibility criteria for the regular mode of study?
+    - Can you clarify the eligibility criteria for students with B/B-/C/C- grades in the regular mode?
+    - Can you explain the eligibility criteria for regular-study mode?
+    - can I apply for regular study mode?
+    - Can I improve my grades during the summer semester in regular study mode?
+    - How can I check my eligibility for regular study mode?
+    - What are the requirements for students to be eligible for the regular mode of study?
+    - What are the conditions that students need to meet in order to be eligible for the regular mode of study?
+    - What are the factors that determine whether a student is eligible for the regular mode of study?
+    - What are the criteria that are used to assess a student's eligibility for the regular mode of study?
+    - What are the standards that a student must meet in order to be eligible for the regular mode of study?
+    - What is the mode of study that is available to me if I have an X grade?
+    - What are my options for mode of study if I have an X grade?
+    - What are the different modes of study that I can choose from if I have an X grade?
+    - How do I choose the right mode of study for me if I have an X grade?
+    - Which mode can i take if i have F grade?
+    - What is the mode of study that is available to me if I have an F grade?
+    - What are my options for mode of study if I have an F grade?
+    - What are the different modes of study that I can choose from if I have an F grade?
+    - How do I choose the right mode of study for me if I have an F grade?
+    - Are there any eligibility criteria for the regular mode of study?
+    - Can you clarify the eligibility criteria for students with B/B-/C/C- grades in the regular mode?
+    - Can you explain the eligibility criteria for regular-study mode?
+    - Can I apply for regular study mode?
+    - Can I improve my grades during the summer semester in regular study mode?
+    - How can I check my eligibility for regular study mode?
+
+- intent: modes_of_study_in_summer_sem
+  examples: |
+    - Can you explain the difference between self-study and regular study modes?
+    - Can I receive academic assistance while in self-study mode?
+    - What is self study mode?
+    - How does self study mode work?
+    - What is  regular mode?
+    - How does regular mode work?
+    - what is difference between self study mode and reugular study mode?
+    - How is self study Mode different from regular mode?
+    - In what modes can i take subjects in summer sem ?
+
+- intent: inquire_about_fees_for_improvement_and_backlog in summer sem
+  examples: |
+    - What is the fee for improvement in the summer semester?
+    - How much do I need to pay for improving my grades in the summer semester?
+    - Is there a specific fee structure for backlog cases in the summer semester?
+    - Can you provide details on the fees for grade improvement and backlog cases in the summer semester?
+    - Are there different fees for improving grades in self-study mode versus regular mode in the summer semester?
+    - Do I need to pay a fee if I want to clear my backlog subjects in the summer semester?
+    - Are there any additional fees associated with grade improvement or backlog clearance in the summer semester?
+    - What is the fee for grade improvement in the summer semester?
+    - How much does it cost to improve grades in the summer semester?
+    - Can you provide details on the fee structure for grade improvement in the summer semester?
+    - Is there a different fee for grade improvement in self-study mode compared to regular mode during the summer semester?
+    - What is the specific fee amount for grade improvement in the summer semester?
+    - What is the fee for clearing backlog subjects in the summer semester?
+    - How much does it cost to resolve backlog subjects in the summer semester?
+    - Can you provide details on the fee structure for clearing backlog subjects in the summer semester?
+    - Is there a different fee for backlog clearance in self-study mode compared to regular mode during the summer semester?
+    - What is the specific fee amount for addressing backlog subjects in the summer semester?
+    - Is the fee for improvement and backlog clearance the same for all subjects in the summer semester?
+    - Can you provide the exact fee amounts for improvement and backlog cases in the summer semester?
+
+- intent: inquire_about_subject_limit_per_mode
+  examples: |
+    - What's the maximum number of subjects I can enroll in for self-study?
+    - How many subjects am I allowed to take in regular mode?
+    - Is there a limit to the number of subjects I can choose for self-study?
+    - Can I exceed the subject limit for regular mode?
+    - Tell me the subject enrollment limits for different modes.
+    - What's the maximum number of courses for self-study?
+    - Are there restrictions on the number of subjects for regular mode?
+    - Explain the subject enrollment restrictions in self-study and regular modes.
+    - Subject enrollment limit in self-study?
+    - Subject count limit for regular mode?
+    - How many courses can I register for in self-study and regular modes?
+    - Can I select more than 3 subjects in regular mode?
+    - What is the subject cap for self-study?
+    - Tell me about subject restrictions in different study modes.
+    - Maximum subjects for self-study and regular mode?
+    - Subject limit per semester for self-study and regular mode?
+    - Is there a maximum subject quota for self-study?
+    - What are the subject constraints for regular mode?
+    - What's the subject limit for regular course registration?
+    - Are there limitations on subject choices in different modes?
+    - Subject enrollment restrictions?
+    - Subject count for self-study and regular enrollment?
+    - Explain the subject cap for self-study and regular courses.
+    - Maximum subjects allowed for self-study and regular study?
+    - Subject limit for self-study and regular programs?
+    - Subject enrollment cap for self-study and regular modes?
+    - Can I take more courses in self-study than regular mode?
+    - Subject quotas for self-study and regular mode?
+    - Tell me the subject restrictions for each study mode.
+    - What's the maximum number of subjects for self-study and regular study?
+    - Subject count limitations for self-study and regular modes?
+    - Explain the subject enrollment policies for self-study and regular programs.
+    - Subject limit per mode?
+    - Are there any restrictions on subject choices in different modes of study?
+    - Maximum subject count for self-study and regular courses?
+    - Subject limit for self-study and regular semesters?
+    - How many courses can I enroll in for self-study and regular study?
+    - Can I take more subjects in regular mode than self-study?
+    - Subject quotas for self-study and regular courses?
+    - Subject enrollment details for each mode.
+    - Tell me about the subject enrollment limits in self-study mode.
+    - What's the maximum subject count for regular enrollment?
+    - Explain the subject quota for self-study and regular courses.
+    - Is there a limit on how many subjects I can take in self-study?
+    - Can I exceed the subject limit in self-study mode?
+    - Subject count restrictions for self-study and regular modes?
+    - What is the subject enrollment cap for regular mode?
+    - Subject restrictions for self-study and regular study?
+    - Are there any specific subject count limitations for regular courses?
+    - Subject limit for self-study and regular academic terms?
+    - How many courses am I allowed to register for in regular mode?
+    - Subject quotas for self-study and regular study programs.
+
+- intent: inquire_about_project_based_course_availability
+  examples: |
+    - Are project-oriented classes available in the summer term?
+    - Can I enroll in the Capstone Project in self-study mode during the summer term?
+    - Tell me about the status of Engineering Design-2 in regular mode for the summer term?
+    - Are there any project-focused courses offered during the summer term?
+    - Is Engineering Design-1 exclusively available in regular mode during the summer term?
+    - How can I register for the Capstone Project during the summer term?
+    - Can you provide information about project-oriented courses in the summer term?
+    - Is it possible to study Engineering Design-2 in self-study mode during the summer term?
+    - What are the choices for project-based courses in the summer term?
+    - Explain the availability of study modes for the Capstone Project during the summer term?
+    - Are there any exceptions or special regulations for project courses during the summer term?
+    - How do I apply for Engineering Design-1 in regular mode during the summer term?
+    - Which project courses are open for enrollment in the summer term?
+    - Tell me more about the self-study options for Engineering Design-1 during the winter term?
+    - Can I take Engineering Design-2 in regular mode during the winter term?
+    - Can you clarify the study options for project courses during the winter term?
+    - What is the deadline for enrolling in project-oriented courses during the winter term?
+    - Can I enhance my grades for the Capstone Project during the winter term?
+    - How are grades determined for project courses during the winter term?
+    - How can I apply for Engineering Design-2 in self-study mode during the winter term?
+    - Can I take Engineering Design-2 in self-study mode during the winter term?
+    - Explain the process of enrolling in project courses during the winter term?
+    - Are there specific prerequisites for self-study enrollment during the winter term?
+    - Tell me about the eligibility criteria for project courses during the winter term?
+    - Can students with prior experience participate in project courses during the winter term?
+    - How does the study mode affect the Capstone Project during the winter term?
+    - What options are available for Engineering Design-1 and Engineering Design-2 during the winter term?
+    - How can I switch from project self-study mode to regular mode during the winter term?
+    - What facilities and resources are available for project-based courses during the winter term?
+    - Tell me about any special programs or events related to project courses during the winter term?
+    - How can I provide feedback or suggestions for project courses during the winter term?
+    - Can I access online materials for project courses during the winter term?
+    - What are the examination and assessment methods for project courses during the winter term?
+    - Can I request accommodations or support services for project courses during the winter term?
+    - Tell me about any industry collaborations or internships associated with project courses during the winter term?
+    - Are there any new project courses introduced in the summer term?
+    - I'm interested in the Capstone Project. Is it available in the summer term?
+    - Do you offer any advanced project courses in the winter term?
+    - How are project courses in self-study mode structured during the summer term?
+    - I'd like to know more about the curriculum of Engineering Design-1 for the summer term.

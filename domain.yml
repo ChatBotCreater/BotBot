@@ -1,6 +1,11 @@
 version: "3.1"
 
 intents:
+  - inquire_about_project_based_course_availability
+  - inquire_about_subject_limit_per_mode
+  - inquire_about_fees_for_improvement_and_backlog in summer sem
+  - modes_of_study_in_summer_sem
+  - inquire_about_regular_mode_of_study
   - inquire_about_fees_thesis_submission
   - inquire_about_self_study
   - inquire_about_E_grade_self_study
@@ -9,6 +14,26 @@ intents:
   - registration_details
 
 responses:
+
+  utter_inquire_about_project_based_course_availability:
+    - text: TBD
+
+
+  utter_inquire_about_subject_limit_per_mode:
+    - text: The maximum number of subjects the one take in summer term is 3 (either regular or self study mode)
+
+
+  utter_inquire_about_fees_for_improvement_and_backlog in summer sem:
+    - text: For improvement and backlog cases in the summer semester, the proposed fee is Rs. 15,000. This fee is applicable for those seeking to improve their grades or address backlog subjects during the summer semester.
+
+
+  utter_modes_of_study_in_summer_sem:
+    - text: T.B.D
+
+
+  utter_inquire_about_regular_mode_of_study:
+    - text: Students can take regular mode of study for backlogs or for  grade improvement for grades other than A/A-
+
 
   utter_inquire_about_fees_thesis_submission:
     - text: The proposed agenda items suggest a revision of thesis submission fees for PG (M.E. / M.Tech. / MSc. / MA) from Rs. 500 to Rs. 1,000

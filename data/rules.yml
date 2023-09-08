@@ -33,3 +33,33 @@ rules:
   steps: 
   - intent: inquire_about_fees_thesis_submission
   - action: utter_inquire_about_fees_thesis_submission
+
+
+- rule: Respond to inquire_about_regular_mode_of_study
+  steps: 
+  - intent: inquire_about_regular_mode_of_study
+  - action: utter_inquire_about_regular_mode_of_study
+
+
+- rule: Respond to modes_of_study_in_summer_sem
+  steps: 
+  - intent: modes_of_study_in_summer_sem
+  - action: utter_modes_of_study_in_summer_sem
+
+
+- rule: Respond to inquire_about_fees_for_improvement_and_backlog in summer sem
+  steps: 
+  - intent: inquire_about_fees_for_improvement_and_backlog in summer sem
+  - action: utter_inquire_about_fees_for_improvement_and_backlog in summer sem
+
+
+- rule: Respond to inquire_about_subject_limit_per_mode
+  steps: 
+  - intent: inquire_about_subject_limit_per_mode
+  - action: utter_inquire_about_subject_limit_per_mode
+
+
+- rule: Respond to inquire_about_project_based_course_availability
+  steps: 
+  - intent: inquire_about_project_based_course_availability
+  - action: utter_inquire_about_project_based_course_availability
