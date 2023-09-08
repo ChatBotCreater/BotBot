@@ -1,11 +1,26 @@
 version: "3.1"
 
 intents:
+  - inquire_about_fees_thesis_submission
+  - inquire_about_self_study
+  - inquire_about_E_grade_self_study
   - greet
   - goodbye
   - registration_details
 
 responses:
+
+  utter_inquire_about_fees_thesis_submission:
+    - text: The proposed agenda items suggest a revision of thesis submission fees for PG (M.E. / M.Tech. / MSc. / MA) from Rs. 500 to Rs. 1,000
+
+
+  utter_inquire_about_self_study:
+    - text: Students with B / B- / C / C- grades are eligible for both Self Study mode and Regular mode
+
+
+  utter_inquire_about_E_grade_self_study:
+    - text: Students with an E grade can choose self-study mode if they had scored 25 marks or more out of 100
+
   utter_greet:
     - text: "Hello! How can I assist you today?"
     

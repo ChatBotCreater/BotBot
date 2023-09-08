@@ -58,3 +58,63 @@ nlu:
     - Is there a registration guide or handbook available?
     - Explain the registration fee payment process an forms.
     - What is the registration confirmation process?
+
+- intent: inquire_about_E_grade_self_study
+  examples: |
+    - Can students with E grades opt for self-study?
+    - What is the self-study option for E grade students?
+    - Is self-study allowed for E grades?
+    - When can E grade students choose self-study mode?
+    - What's the minimum marks requirement for E grade students to choose self-study?
+    - How do E grade students select self-study mode?
+    - Can E grade students study on their own?
+    - Tell me about the self-study policy for E grade students.
+    - Do E grade students need to take subjects in regular mode?
+    - Explain the self-study option for students with E grades.
+    - What are the conditions for E grade students to choose self-study?
+    - Is self-study available for E grades if marks are less than 25?
+    - Can students with E grades study independently?
+    - How can E grade students improve their grades through self-study?
+    - When is self-study mode applicable for E grade students?
+    - Can E grade students take subjects in regular mode if marks are low?
+    - Tell me more about E grade self-study conditions.
+    - What happens if E grade students don't meet the marks requirement for self-study?
+    - Is there a minimum marks cutoff for E grade students to choose self-study?
+    - Can E grade students take subjects in regular mode if they scored less than 25?
+    - Explain the criteria for E grade students to opt for self-study.
+    - What's the threshold marks for E grade students to choose self-study?
+    - Can E grade students switch to regular mode if they have low marks?
+    - Is self-study available for E grade students who scored below 25?
+
+- intent: inquire_about_self_study
+  examples: |
+    - Is self-study allowed for subjects in summer sem
+    - Can you explain the eligibility criteria for self-study mode?
+    - can I apply for self-study mode?
+    - Can I improve my grades during the summer semester in self-study mode?
+    - How can I check my eligibility for self-study mode?
+    - Can I choose self-study for all my subjects in the summer semester?
+    - Is self-study mode available for all courses and subjects?
+    - Can I choose self-study mode if I want to improve my grades during the summer semester?
+    - Can I work on grade improvement while studying in self-study mode?
+    - How can I check if I am eligible for self-study mode during the summer semester?
+    - What steps can I take to determine my eligibility for self-study mode?
+    - Are there specific guidelines or criteria I should follow to assess my eligibility for self-study mode?
+    - How do I verify whether I meet the requirements for self-study mode?
+
+- intent: inquire_about_fees_thesis_submission
+  examples: |
+    - What is the thesis submission fee for the summer semester?
+    - How much does it cost to submit a thesis in the summer semester?
+    - Can you provide information about the current thesis submission fee?
+    - Is there a fee for thesis submission during the summer term?
+    - What is the revised thesis submission fee for the summer semester?
+    - How has the thesis submission fee changed for the summer semester?
+    - Can I get a breakdown of the thesis submission fee for the summer semester?
+    - How much does it cost to submit a thesis?
+    - Can you provide information about the fees for thesis submission?
+    - What is the fee structure for thesis submission?
+    - What is the current thesis submission fee?
+    - How much do I need to pay for thesis submission?
+    - Is there a fee for submitting a thesis?
+    - Can you provide information on the thesis submission fee structure?

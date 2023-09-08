@@ -16,3 +16,20 @@ rules:
   steps:
   - intent: registration_details
   - action: utter_registration_details
+
+- rule: Respond to inquire_about_E_grade_self_study
+  steps: 
+  - intent: inquire_about_E_grade_self_study
+  - action: utter_inquire_about_E_grade_self_study
+
+
+- rule: Respond to inquire_about_self_study
+  steps: 
+  - intent: inquire_about_self_study
+  - action: utter_inquire_about_self_study
+
+
+- rule: Respond to inquire_about_fees_thesis_submission
+  steps: 
+  - intent: inquire_about_fees_thesis_submission
+  - action: utter_inquire_about_fees_thesis_submission
