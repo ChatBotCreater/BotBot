@@ -1,0 +1,58 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: registration_details
+  examples: |
+    - where can i register for summer term ?
+    - when the registration of summer term are available?
+    - when the registration of summer term are starting?
+    - window for registration of summer term?
+    - What are the registration details for the summer semester?
+    - Can you provide information about the registration process?
+    - When is the registration deadline for the upcoming semester?
+    - How do I register for courses this semester?
+    - Tell me about the documents required for registration.
+    - What fees are associated with registration?
+    - I need to know how to sign up for summer courses.
+    - Where can I find the registration forms?
+    - What's the procedure to register as a new student?
+    - How can I check my registration status?
+    - Are there any prerequisites for registering for advanced courses?
+    - Can I change my registered courses after the deadline?
+    - Tell me about the registration schedule and important dates.
+    - Can I register for both in-person and online courses?
+    - How do I access the student portal for registration?
+    - What are the consequences of late registration?
+    - Is there a registration guide or handbook available?
+    - How can I drop a course after registration if needed?
+    - Explain the registration fee payment options.
+    - What is the registration confirmation process?

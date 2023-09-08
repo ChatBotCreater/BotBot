@@ -1,0 +1,19 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - registration_details
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+    
+  utter_goodbye:
+    - text: "Goodbye! If you have any more questions, feel free to ask."
+    
+  utter_registration_details:
+    - text: "Registration for the summer term usually starts in late May and lasts for 10 days. Access the registration form [here](registration_form_link) to complete your registration."
+    
+session_config:
+  session_expiration_time: 60  # Set the session timeout in seconds
