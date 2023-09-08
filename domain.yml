@@ -16,7 +16,7 @@ intents:
 responses:
 
   utter_inquire_about_project_based_course_availability:
-    - text: TBD
+    - text: The availability of project-based courses varies each term. For the this term, you'd need to refer to the official course schedule or the academic department. However, if you're interested in the questions about fees, exams type, grade-related information, or specific grade requirements
 
 
   utter_inquire_about_subject_limit_per_mode:
@@ -28,7 +28,7 @@ responses:
 
 
   utter_modes_of_study_in_summer_sem:
-    - text: T.B.D
+    - text: There are two modes of Study in Summer term - Regular Mode(where you have to attend the classes regularly) and Self Study Mode(where you are provided an online course and material to follow up).In both Cases the mode of evaluation is same.
 
 
   utter_inquire_about_regular_mode_of_study:
