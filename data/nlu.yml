@@ -283,3 +283,181 @@ nlu:
     - Do you offer any advanced project courses in the winter term?
     - How are project courses in self-study mode structured during the summer term?
     - I'd like to know more about the curriculum of Engineering Design-1 for the summer term.
+
+- intent : inquire_about_max_grade_achieveable_summer_sem
+  examples: |
+    - What is the highest achievable grade in the summer semester?
+    - Can I earn an A+ grade in the summer semester?
+    - Is there a limit to the maximum grade I can achieve in the summer term?
+    - What is the best grade I can get during the summer semester?
+    - Are there any restrictions on the grades I can earn in the summer semester?
+    - Can I aim for the highest possible grade in summer courses?
+    - Is it possible to achieve a perfect score in the summer semester?
+    - What's the grading scale for the summer semester?
+    - How does grading work in the summer term, and what's the highest grade?
+    - Are there any differences in the grading system for the summer semester compared to regular semesters?
+    - Can I earn an A grade in summer classes?
+    - What is the top grade that students can achieve during the summer semester?
+    - Do grades earned in summer courses count towards my overall GPA?
+    - Are there any limitations on the maximum grade I can attain in summer classes?
+    - Is there a curve for grading in the summer semester?
+    - What is the maximum GPA achievable in summer courses?
+    - Are there grade modifiers for summer classes?
+    - What is the highest letter grade I can earn in the summer semester?
+    - How do summer grades affect my academic record?
+    - Is it possible to get an A- grade in summer courses?
+    - Can I receive an A grade if I excel in the summer term?
+    - Do summer courses use the same grading system as regular semesters?
+    - What's the grading policy for the summer semester?
+    - Are there any grade restrictions for summer classes?
+    - What is the grade distribution like for summer courses?
+    - Can I aim for the highest possible grade in summer classes?
+    - Is there a limit to the highest achievable grade in the summer semester?
+    - How do I earn the highest grade in my summer courses?
+    - Are there any differences in grading for summer and regular classes?
+    - Can I get an A+ in any summer course?
+    - What's the maximum grade I can earn in summer classes?
+    - How are summer grades calculated?
+    - Is it possible to receive a perfect score in a summer course?
+    - What are the grading criteria for the summer semester?
+    - Can I achieve an A grade in any summer course?
+    - How does the grading system work for summer classes?
+    - Are there any special grading rules for summer courses?
+    - What's the highest GPA attainable in the summer semester?
+    - Can I strive for the highest possible grade in summer courses?
+    - How do I achieve top grades in summer classes?
+    - Is there a grade curve for the summer semester?
+    - What's the highest possible grade I can earn in a summer course?
+    - Do summer grades impact my overall academic performance?
+
+- intent: inquire_about_teacher_assignment_for_modes
+  examples: |
+    - How are instructors assigned when a course is offered in both Self-study and Regular modes?
+    - Can you explain the process of assigning faculty to courses that run in both Self and Regular modes?
+    - What happens when a subject is offered in both Self-study and Regular modes? How is the teacher assigned?
+    - Tell me about the faculty assignment for courses that have Self-study and Regular study options.
+    - When a course is available in both Self-study and Regular modes, how is the instructor selected?
+    - How is faculty assignment handled for subjects that run concurrently in Self-study and Regular modes?
+    - Explain the policy for assigning instructors to courses that are offered in both Self and Regular modes.
+    - What is the procedure for selecting teachers when a course is available in Self-study and Regular modes?
+    - Can you provide details on faculty allocation for courses that run in both Self and Regular modes?
+    - When a course has Self-study and Regular options, who conducts MST, EST, and Sessional sessions?
+    - Describe the faculty assignment process for courses that run in both Self-study and Regular modes.
+    - How does the university decide which instructor to assign when a course is offered in both Self and Regular modes?
+    - Tell me about the policy for faculty allocation when a subject is available in both Self-study and Regular modes.
+    - What happens when a course is taught in both Self-study and Regular modes? How is the teacher chosen?
+    - Can you elaborate on the teacher assignment policy for courses with Self-study and Regular study choices?
+    - How is faculty selection managed for courses that are available in both Self-study and Regular modes?
+    - Explain the guidelines for assigning instructors to courses with Self-study and Regular mode options.
+    - What is the faculty allocation procedure for subjects that have both Self-study and Regular study modes?
+    - When a course is offered in both Self-study and Regular modes, who conducts MST, EST, and Sessional classes?
+    - Describe the process of assigning teachers for courses that run in both Self-study and Regular modes.
+    - How are instructors determined for courses with both Self-study and Regular study options?
+
+- intent: inquire_about_dropping_subject_in_summer_sem
+  examples: |
+    - Is it possible to remove a course from my summer semester schedule?
+    - What is the procedure for dropping a subject during the summer semester?
+    - Are there any restrictions on the number of subjects I can drop in the summer semester?
+    - Can I drop one subject if I originally registered for three subjects in the summer semester?
+    - How does dropping a subject affect my academic record and progress?
+    - What is the deadline for dropping a subject in the summer semester without academic penalties?
+    - Will I receive a refund if I drop a subject in the summer semester?
+    - Is the summer semester subject dropping fee refundable?
+    - Are there any consequences for dropping a subject in the summer semester?
+    - Can I drop a subject and add a different one in the same summer semester?
+    - Can I drop a subject if I feel overwhelmed with my current course load?
+    - What happens if I miss the deadline for dropping a subject in the summer semester?
+    - Is there an option to temporarily withdraw from a subject in the summer semester?
+    - Are there academic advising services available to discuss subject dropping options?
+    - How does dropping a subject impact my tuition and fees for the summer semester?
+    - Can international students drop subjects in the summer semester?
+    - How do I officially request to drop a subject during the summer semester?
+    - Are there specific forms or documentation required when dropping a subject in the summer semester?
+    - Can I drop a subject in the summer semester?
+
+- intent: inquire_about_course_re_enrollment_after_improvement
+  examples: |
+    - Can I retake a course to improve my grade if I've already improved it once?
+    - Is it possible to register for a course again after improving the grade?
+    - What are the rules regarding re-enrolling in a course for improvement?
+    - If I've upgraded my grade in a course, can I still take it again?
+    - Am I allowed to repeat a course to enhance my grade after improvement?
+    - Once I've improved my grade in a course, can I register for it again?
+    - Is there a limit to how many times I can take a course to improve my grade?
+    - What happens if I've already enhanced my grade in a course and want to take it again?
+    - Can I retake a course for grade enhancement if I've already done so in the past?
+    - After upgrading a course grade, am I eligible to enroll in it again?
+    - What is the policy regarding re-enrolling in a course after grade improvement?
+    - Is it permissible to register for a course again after achieving a better grade?
+    - How many times can I retake a course to improve my grade?
+    - Are there any restrictions on re-enrolling in a course after grade enhancement?
+    - Can I repeat a course for improvement if I've previously upgraded my grade?
+    - What are the guidelines for registering for a course again after grade improvement?
+    - If I've improved my grade, can I still take the course once more?
+    - Is there a maximum limit on the number of times I can retake a course for improvement?
+    - What happens if I want to re-enroll in a course after already enhancing my grade?
+    - Can I register for a course again if I've already improved my grade in it?
+    - After improving a course grade, can I take the course once more for further improvement?
+    - Are there any restrictions on course re-enrollment after grade enhancement?
+    - How many attempts am I allowed for improving a course grade?
+    - If I've upgraded my grade, can I retake the course for additional improvement?
+    - What are the rules regarding re-enrolling in a course after achieving a better grade?
+    - Can I improve my grade further if I've already enhanced it to a A/A-/B/B-/C/C-?
+    - If I've previously upgraded my grade to an A/A-/B/B-/C/C-, can I attempt further improvement?
+    - What happens if I've already improved my grade to a A/A-/B/B-/C/C- and want to enhance it again?
+    - Is it possible to continue improving my grade after reaching an A/A-/B/B-/C/C- in a course?
+    - Am I allowed to upgrade my grade once more if I've already achieved an A/A-/B/B-/C/C-?
+    - After improving my grade to a A/A-/B/B-/C/C-, can I make additional improvements?
+    - If my grade has already been enhanced to a A/A-/B/B-/C/C-, can I pursue further improvement?
+    - Is there a limit to how many times I can improve my grade in a course?
+    - What are the guidelines for grade improvement if I've already reached an A/A-/B/B-/C/C-?
+    - Can I attempt further grade enhancement after achieving a A/A-/B/B-/C/C- in a course?
+    - If I've already upgraded my grade to a A/A-/B/B-/C/C-, am I eligible for additional improvement?
+    - How many times can I improve my grade if I've already achieved an A/A-/B/B-/C/C-?
+    - Is it permissible to make multiple grade enhancements in the same course?
+    - What happens if I've already improved my grade to a A/A-/B/B-/C/C- and want to try again?
+    - Can I aim for further grade improvement after reaching a A/A-/B/B-/C/C-?
+    - After upgrading my grade to an A/A-/B/B-/C/C-, can I make additional improvements?
+    - If my grade is already enhanced to a A/A-/B/B-/C/C-, can I pursue further improvements?
+    - Is there a maximum limit on the number of times I can enhance my grade?
+    - What are the policies for multiple grade improvements in a course?
+    - Can I continue to improve my grade if I've already reached a A/A-/B/B-/C/C-?
+    - If I've previously upgraded my grade to an A/A-/B/B-/C/C-, can I aim for further improvement?
+    - After enhancing my grade to a A/A-/B/B-/C/C-, can I attempt further improvements?
+    - Is there a restriction on the number of times I can improve my grade?
+    - What happens if I've already improved my grade to a A/A-/B/B-/C/C- or an A/A-/B/B-/C/C- and want to improve it again?
+    - Can I keep trying to enhance my grade after reaching a certain level?
+
+- intent: inquire_about_course_re_enrollment_backlog 
+  examples: |
+    - How can I re-enroll in a course after having a backlog?
+    - What's the procedure for re-enrollment in a course if I have a backlog?
+    - Can you explain the process of re-enrolling in a course with a backlog?
+    - Are there any specific requirements for course re-enrollment after a backlog?
+    - When can I apply for course re-enrollment if I have a backlog?
+    - Is there a deadline for re-enrolling in a course after a backlog?
+    - Do I need to pay an additional fee for course re-enrollment after a backlog?
+    - Can I choose any course for re-enrollment after a backlog, or are there restrictions?
+    - Is re-enrollment possible for all courses, including specialized ones, after a backlog?
+    - How do I check my eligibility for course re-enrollment following a backlog?
+    - Are there any limitations on the number of courses I can re-enroll in after backlogs?
+    - Is there a separate application process for course re-enrollment after a backlog?
+    - Can I re-enroll in multiple courses simultaneously after having backlogs?
+    - Can I re-enroll in a course if I've failed it in a previous attempt?
+    - Are there any restrictions on re-enrolling in courses with labs or practical components after a backlog?
+    - What should I do if I want to re-enroll in a course I previously had a backlog in?
+    - Is there a limit on the number of times I can re-enroll in the same course after a backlog?
+    - Can I re-enroll in a course I withdrew from earlier due to a backlog?
+    - Are there any penalties for not re-enrolling in a course after a backlog?
+    - If I've scored an E/X grade in a course I previously re-enrolled in, can I re-enroll for the same course again?
+    - Are there limitations on re-enrolling in a course after achieving an E/X grade in it?
+    - How many times am I allowed to re-enroll in a course if I continue to score E/X grades?
+    - What is the procedure for re-enrolling in a course for which I received an E/X grade?
+    - Can I re-enroll in a course if I've received E/X grades for it in multiple attempts?
+    - Are there any additional requirements for students wishing to re-enroll after E/X grades?
+    - How do E/X grades impact my eligibility to re-enroll in a specific course?
+    - Are there any academic advising services for students re-enrolling in courses with E/X grades?
+    - Can I appeal or request special consideration if I wish to re-enroll after receiving an E/X grade?
+    - Will the new grade replace the previous E/X grade if I successfully re-enroll in a course?
+    - Can I re-enroll in a course for which I received an E/X grade even if it's no longer part of the curriculum?

@@ -63,3 +63,29 @@ rules:
   steps: 
   - intent: inquire_about_project_based_course_availability
   - action: utter_inquire_about_project_based_course_availability
+
+
+- rule: Maximum_grade_one_get_in_summer_sem
+  steps:
+  - intent: inquire_about_max_grade_achieveable_summer_sem
+  - action: utter_inquire_about_max_grade_achieveable_summer_sem
+
+- rule: Teacher_modes
+  steps:
+  - intent: inquire_about_teacher_assignment_for_modes
+  - action: utter_inquire_about_teacher_assignment_for_modes
+
+- rule: can I Take Drop or not 
+  steps:
+  - intent: inquire_about_dropping_subject_in_summer_sem
+  - action: utter_inquire_about_dropping_subject_in_summer_sem
+
+- rule: inquire_about_course_re_enrollment_after_improvement
+  steps: 
+  - intent: inquire_about_course_re_enrollment_after_improvement
+  - action: utter_inquire_about_course_re_enrollment_after_improvement
+
+- rule: inquire_about_course_re_enrollment_backlog 
+  steps:
+  - intent: inquire_about_course_re_enrollment_backlog 
+  - action: utter_inquire_about_course_re_enrollment_backlog 

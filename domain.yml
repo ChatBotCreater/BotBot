@@ -12,6 +12,11 @@ intents:
   - greet
   - goodbye
   - registration_details
+  - inquire_about_max_grade_achieveable_summer_sem
+  - inquire_about_teacher_assignment_for_modes
+  - inquire_about_dropping_subject_in_summer_sem
+  - inquire_about_course_re_enrollment_after_improvement
+  - inquire_about_course_re_enrollment_backlog 
 
 responses:
 
@@ -54,6 +59,21 @@ responses:
     
   utter_registration_details:
     - text: "Registration for the summer term usually starts in late May and lasts for 10 days. Access the registration form [here](registration_form_link) to complete your registration."
-    
+  
+  utter_inquire_about_max_grade_achieveable_summer_sem:
+    - text: "The max Grade that can be achieved in Summer Semester depends on the strength of you original batch."
+
+  utter_inquire_about_teacher_assignment_for_modes:
+    - text: To deal with any subject running in Self and Regular mode (both), only one faculty will be assigned. In this scenario the faculty will get paid for regular course only. Assigned faculty will conduct MST / EST / Sessional as per the requirement of the course. 
+
+  utter_inquire_about_dropping_subject_in_summer_sem:
+    - text: There's a specific procedure to drop a subject in summer sem and fees will be non refundable.
+
+  utter_inquire_about_course_re_enrollment_after_improvement:
+    - text: In case a candidate has improved the grade in a particular course, the same course can’t be registered again for improvement
+  
+  utter_inquire_about_course_re_enrollment_backlog:
+    - text: You can enroll for as many time as you want for the backlog subjects whenever the registerations will open next time. Final results will be changed according to that only.
+
 session_config:
   session_expiration_time: 60  # Set the session timeout in seconds
