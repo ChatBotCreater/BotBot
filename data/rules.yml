@@ -89,3 +89,23 @@ rules:
   steps:
   - intent: inquire_about_course_re_enrollment_backlog 
   - action: utter_inquire_about_course_re_enrollment_backlog 
+
+- rule: tenure_of_summer_term
+  steps:
+  - intent: tenure_of_summer_term
+  - action: utter_tenure_of_summer_term
+
+- rule: time_table
+  steps:
+  - intent: time_table
+  - action: utter_time_table
+
+- rule: asking_about_summer_semester
+  steps:
+  - intent: asking_about_summer_semester
+  - action: utter_asking_about_summer_semester
+
+- rule: inquire_about_eligibility_for_medal_scholarship_upon_upgradation
+  steps:
+  - intent: inquire_about_eligibility_for_medal_scholarship_upon_upgradation
+  - action: utter_inquire_about_eligibility_for_medal_scholarship_upon_upgradation

@@ -461,3 +461,95 @@ nlu:
     - Can I appeal or request special consideration if I wish to re-enroll after receiving an E/X grade?
     - Will the new grade replace the previous E/X grade if I successfully re-enroll in a course?
     - Can I re-enroll in a course for which I received an E/X grade even if it's no longer part of the curriculum?
+
+- intent: tenure_of_summer_term
+  examples: |
+    - When does the summer term start and end?
+    - What is the timeline for the summer term?
+    - How long is the summer term's duration?
+    - Tell me about the summer term's timeline.
+    - What is the schedule for the summer term?
+    - When should I expect the summer term to begin?
+    - How long do I need to study during the summer term?
+    - What is the duration of the summer term's academic sessions?
+    - Can you provide information about the summer term's start and end dates?
+    - What are the specific dates for the summer term?
+    - Tell me about the summer term's academic calendar.
+    - When does the summer term's academic activities start and finish?
+    - What is the timeframe for the summer term's academic sessions?
+    - How long is the summer term's academic schedule?
+    - When do I need to be prepared for the summer term's commencement?
+    - Is there a specific timeframe for the summer term's academic activities?
+    - Can you specify the start and end dates of the summer term?
+    - Tell me when the summer term begins and when it ends.
+    - What are the summer term's academic session dates?
+    - When should I mark my calendar for the summer term's start and end?
+    - Is there a specific period for the summer term's academic activities?
+    - Can you provide information about the summer term's duration and academic sessions?
+    - Tell me about the summer term's academic sessions and duration.
+    - How long is the summer term, and when does it start?
+    - Can you provide me with details about the summer term's start and end dates?
+    - When does the summer term's academic calendar begin and end?
+    - What is the summer term's academic schedule like in terms of start and end dates?
+    - How can I prepare for the start of the summer term?
+    - What are the key dates I should remember for the summer term? 
+
+- intent: time_table
+  examples: |
+    -Can you provide me with the summer semester timetable and schedule?
+    -I need to know the timetable for the summer semester.
+    -Where can I find the timetable for the summer semester courses?
+    -Tell me about the schedule for the summer semester.
+    -How can I access the summer semester timetable?
+    -Provide me with the link to the summer semester timetable.
+    -Is the summer semester timetable available online?
+    -Can you direct me to the summer semester timetable?
+    -I want to check the timetable for my summer semester courses.
+    -What's the link to the summer semester timetable?
+    -How do I access the timetable for my summer semester classes?
+    -Tell me where I can find the summer semester timetable.
+    -Is there an online portal for the summer semester timetable?
+    -Can you provide me with the link to the summer semester's class schedule?
+    - I need to check my summer semester class timetable. How can I do that?
+    - How do I access the summer semester class timetable online?
+    - Tell me how to find the timetable for summer semester courses.
+    - What's the process to access the summer semester timetable?
+    - Provide me with information about the summer semester class timetable.
+    - Can you give me the website where I can view the summer semester timetable?
+    - Where do I go to see the summer semester timetable?
+    - What's the link to the summer semester class schedule?
+    - How can I find my summer semester class timetable online?
+
+- intent: asking_about_summer_semester
+  examples: |
+    - Description about summer semester?
+    - Define what is summer semester?
+    - Can you explain me about Summer Semester?
+    - How Summer semester can be helpful to students who have got lower grades?
+    - what is summer semester?
+    - Is Summer semester really helpful?
+    - Should I consider summer semester for my marks improvement ?
+    - which semester is for upgradation of marks ?
+    - What is meant by a summer semester?
+    - Can you explain the concept of summer semester?
+    - Define summer semester?
+    - What does summer semester entail?
+    - How does a summer semester differ from the regular academic year?
+    - Who is eligible for the summer semester?
+    - What are the eligibility criteria for the summer semester?
+
+- intent: inquire_about_eligibility_for_medal_scholarship_upon_upgradation
+  examples: |
+    - What happens to my scholarship if I upgrade my grades?
+    - Can I still get a scholarship after improving my grades?
+    - Explain the eligibility criteria for medals after grade upgradation.
+    - Do upgraded grades affect my chances of getting a scholarship?
+    - How does grade upgradation impact medal eligibility?
+    - Tell me about scholarships and upgradation rules.
+    - Will my scholarship status change if I improve my grades?
+    - Are there any changes in scholarship eligibility after upgrading?
+    - What are the scholarship guidelines after grade improvement?
+    - Can I receive a medal after upgrading my course grades?
+
+
+

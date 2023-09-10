@@ -17,6 +17,10 @@ intents:
   - inquire_about_dropping_subject_in_summer_sem
   - inquire_about_course_re_enrollment_after_improvement
   - inquire_about_course_re_enrollment_backlog 
+  - tenure_of_summer_term
+  - time_table
+  - asking_about_summer_semester
+  - inquire_about_eligibility_for_medal_scholarship_upon_upgradation
 
 responses:
 
@@ -74,6 +78,18 @@ responses:
   
   utter_inquire_about_course_re_enrollment_backlog:
     - text: You can enroll for as many time as you want for the backlog subjects whenever the registerations will open next time. Final results will be changed according to that only.
+
+  utter_tenure_of_summer_term:
+    - text: Certainly! The summer term's duration is approximately six weeks, starting in the first week of June and ending in mid-July, which aligns with its academic sessions.
+
+  utter_time_table:
+    - text: Information about the summer semester class timetable can be found [here](summer_semester_timetable_link).
+
+  utter_asking_about_summer_semester:
+    - text: The summer term, conducted during the auxiliary examination period in July or January, provides students with the opportunity to improve grades for B, B-, C, and C- and take exams in self-study or regular mode, with specific grade criteria and fees.
+
+  utter_inquire_about_eligibility_for_medal_scholarship_upon_upgradation:
+    - text: Grade upgradation may impact your eligibility for scholarships and medals. After upgrading your grades, you will need to meet the specific eligibility criteria for scholarships and medals based on your improved performance. For precise details and eligibility criteria, please refer to the official university guidelines or consult with the academic office.
 
 session_config:
   session_expiration_time: 60  # Set the session timeout in seconds
