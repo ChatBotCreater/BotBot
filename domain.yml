@@ -25,8 +25,7 @@ intents:
 responses:
 
   utter_inquire_about_project_based_course_availability:
-    - text: The availability of project-based courses varies each term. For the this term, you'd need to refer to the official course schedule or the academic department. However, if you're interested in the questions about fees, exams type, grade-related information, or specific grade requirements
-
+    - text: The project based courses such as Engineering Design-1, Engineering Design-2, Capstone Project, etc. cannot be offered as self-study mode. And will only be offered in regular mode.
 
   utter_inquire_about_subject_limit_per_mode:
     - text: The maximum number of subjects the one take in summer term is 3 (either regular or self study mode)
@@ -49,7 +48,7 @@ responses:
 
 
   utter_inquire_about_self_study:
-    - text: Students with B / B- / C / C- grades are eligible for both Self Study mode and Regular mode
+    - text: Students with B / B- / C / C- grades are eligible for both Self Study mode.
 
 
   utter_inquire_about_E_grade_self_study:
@@ -89,7 +88,6 @@ responses:
     - text: The summer term, conducted during the auxiliary examination period in July or January, provides students with the opportunity to improve grades for B, B-, C, and C- and take exams in self-study or regular mode, with specific grade criteria and fees.
 
   utter_inquire_about_eligibility_for_medal_scholarship_upon_upgradation:
-    - text: Grade upgradation may impact your eligibility for scholarships and medals. After upgrading your grades, you will need to meet the specific eligibility criteria for scholarships and medals based on your improved performance. For precise details and eligibility criteria, please refer to the official university guidelines or consult with the academic office.
-
+    - text: Student who has improved his/her grades during summer semester will not be considered for medal / scholarship / upgradation on the basis of improved grades. Marks / grades obtained only in/during 1 st attempt of the course will only be considered for medal / scholarship / upgradation.
 session_config:
   session_expiration_time: 60  # Set the session timeout in seconds
