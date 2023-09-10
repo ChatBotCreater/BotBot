@@ -109,3 +109,18 @@ rules:
   steps:
   - intent: inquire_about_eligibility_for_medal_scholarship_upon_upgradation
   - action: utter_inquire_about_eligibility_for_medal_scholarship_upon_upgradation
+
+- rule: Upgrade_grade_decline_A_A-
+  steps:
+  - intent: Upgrade_grade_decline_A_A-
+  - action: utter_Upgrade_grade_decline_A_A-
+
+- rule: Grade_upgrade
+  steps: 
+  - intent: Grade_upgrade
+  - action: utter_Grade_upgrade
+
+- rule: refund_policy_summer_sem
+  steps:
+  - intent: refund_policy_summer_sem
+  - action: utter_refund_policy_summer_sem

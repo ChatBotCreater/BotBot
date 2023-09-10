@@ -21,6 +21,9 @@ intents:
   - time_table
   - asking_about_summer_semester
   - inquire_about_eligibility_for_medal_scholarship_upon_upgradation
+  - Upgrade_grade_decline_A_A-
+  - Grade_upgrade
+  - refund_policy_summer_sem
 
 responses:
 
@@ -89,5 +92,15 @@ responses:
 
   utter_inquire_about_eligibility_for_medal_scholarship_upon_upgradation:
     - text: Student who has improved his/her grades during summer semester will not be considered for medal / scholarship / upgradation on the basis of improved grades. Marks / grades obtained only in/during 1 st attempt of the course will only be considered for medal / scholarship / upgradation.
+
+  utter_Upgrade_grade_decline_A_A-:
+    - text: Please note that students with grade A and A- cannot go for grade upgradation.
+
+  utter_Grade_upgrade:
+    - text:  Students with B / B- / C / C- / E / X / F grades are eligible for grade upgrades.  
+
+  utter_refund_policy_summer_sem:
+    - text: Please note that fees cannot be refunded once the summer semester has begun.
+    
 session_config:
   session_expiration_time: 60  # Set the session timeout in seconds

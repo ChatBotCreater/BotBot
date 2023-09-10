@@ -551,5 +551,123 @@ nlu:
     - What are the scholarship guidelines after grade improvement?
     - Can I receive a medal after upgrading my course grades?
 
+- intent: Upgrade_grade_decline_A_A-
+  examples: |
+    - Can I upgrade my grade from A- to A during the summer semester?
+    - Is there an opportunity to improve my A- grade from the previous semester in the summer?
+    - How can I work on raising my A- to an A in the summer session?
+    - Are there any courses or programs available specifically to improve an A- grade?
+    - Can I retake a course to boost my A- to an A in the summer semester?
+    - What options do I have if I want to upgrade my A- grade from last semester?
+    - I received an A- last semester; can you explain how I can upgrade it to an A this summer?
+    - Is there a summer term where I can focus on improving my A- grade?
+    - Are there any academic support services to help me achieve an A from an A-?
+    - Can you provide guidance on upgrading a grade from A- to A during the summer semester?
+    - What steps should I take to upgrade my A- grade to an A this summer?
+    - Are there any specific courses or workshops aimed at improving an A- to an A?
+    - How can I retake exams or assignments to upgrade my A- to an A in the summer?
+    - Can you suggest a study plan for upgrading an A- to an A during the summer term?
+    - Are there any scholarships or incentives for students who successfully upgrade their grades from A- to A in the summer semester?
+    - Is there a specific deadline for grade upgrades during the summer session?
+    - Can I consult with a professor or academic advisor to discuss upgrading my A- to an A?
+    - Are there any resources or materials available to help me achieve an A from an A- this summer?
+    - What's the process for upgrading a grade, and where can I get more information about it?
+    - Can you provide examples of students who successfully upgraded their A- to an A in the summer semester, and how they did it?
 
+- intent: Grade_upgrade
+  examples: |
+    - Can I upgrade my grade from B to an A this semester?
+    - Is there an opportunity to improve my B grade to an A?
+    - How can I work on raising my grade from B to an A?
+    - Are there any courses or programs available to upgrade a B to an A?
+    - Can you provide guidance on upgrading my B grade to an A?
+    - What steps should I take to upgrade my grade from B to A?
+    - Can I retake specific courses to boost my B to an A?
+    - Are there any scholarships or incentives for students who upgrade their grades from B to A?
+    - Is it possible to upgrade my grade from B- to B this term?
+    - How can I work on improving my B- to a B?
+    - Can you suggest strategies for upgrading my B- to B?
+    - Are there any courses or workshops aimed at improving a B- to B?
+    - Can I retake exams or assignments to upgrade my B- to B?
+    - What resources are available to help me achieve a B from a B-?
+    - Can you provide a timeline for upgrading a grade from B- to B?
+    - Are there any scholarships or incentives for students who successfully upgrade their grades from B- to B?
+    - Can I upgrade my grade from C to a B this semester?
+    - Is there an opportunity to improve my C grade to a B?
+    - How can I work on raising my grade from C to a B?
+    - Are there any courses or programs available to upgrade a C to a B?
+    - Can you provide guidance on upgrading my C grade to a B?
+    - What steps should I take to upgrade my grade from C to B?
+    - Can I retake specific courses to boost my C to a B?
+    - Are there any scholarships or incentives for students who upgrade their grades from C to B?
+    - Is it possible to upgrade my grade from C- to C this term?
+    - How can I work on improving my C- to a C?
+    - Can you suggest strategies for upgrading my C- to C?
+    - Are there any courses or workshops aimed at improving a C- to C?
+    - Can I retake exams or assignments to upgrade my C- to C?
+    - What resources are available to help me achieve a C from a C-?
+    - Can you provide a timeline for upgrading a grade from C- to C?
+    - Are there any scholarships or incentives for students who successfully upgrade their grades from C- to C?
+    - Can I upgrade my grade from X to a passing grade this semester?
+    - Is there an opportunity to change my grade from X to a passing grade?
+    - How can I work on raising my grade from X to a passing grade?
+    - Are there any courses or programs available to upgrade a grade from X to passing?
+    - Can you provide guidance on upgrading my X grade to a passing grade?
+    - What steps should I take to upgrade my grade from X to passing?
+    - Can I retake specific courses or assignments to achieve a passing grade?
+    - Are there any scholarships or incentives for students who successfully upgrade their grades from X to passing?
+    - Is it possible to upgrade my grade from F to a passing grade this term?
+    - How can I work on improving my F to a passing grade?
+    - Can you suggest strategies for upgrading my F to a passing grade?
+    - Are there any courses or workshops aimed at helping me achieve a passing grade from an F?
+    - Can I retake exams or assignments to upgrade my F to a passing grade?
+    - What resources are available to help me pass a course after receiving an F?
+    - Can you provide a timeline for upgrading a grade from F to passing?
+    - Are there any scholarships or incentives for students who successfully upgrade their grades from F to passing?
 
+- intent: refund_policy_summer_sem
+  examples: |
+    - What is the university's refund policy for summer semester fees?
+    - Can I get a refund for my summer semester tuition and fees if I need to withdraw from all my courses?
+    - How do I initiate the process for a refund of my summer semester fees?
+    - Is there a deadline by which I need to request a refund for my summer semester fees?
+    - Are there any circumstances under which the university automatically issues a refund?
+    - What fees are eligible for a refund in the summer semester?
+    - Can I request a refund for fees associated with campus services, such as housing or meal plans, if I no longer need them during the summer?
+    - Are there any non-refundable fees that I should be aware of for the summer semester?
+    - Refunding Specific Fees
+    - If I initially registered for three subjects in the summer semester, can I get a refund for one of them?
+    - Is it possible to receive a partial refund if I decide to drop one of the courses I enrolled in for the summer semester?
+    - Can I request a refund for a single course if I find it necessary to reduce my workload for the summer?
+    - What's the process for obtaining a refund for a specific subject if I'm taking multiple courses in the summer?
+    - Are there any conditions or deadlines I should be aware of when requesting a refund for one of my summer semester subjects?
+    - I've enrolled in several courses for the summer. Can I get a refund for one of them without affecting the others?
+    - How does the refund process work for individual subjects within the summer semester?
+    - Can I drop a course and receive a refund while still continuing with my other summer semester courses?
+    - What's the policy for course-specific refunds during the summer session?
+    - If I choose to drop a subject now, will I receive a proportional refund for that specific course?
+    - Are there any fees or penalties associated with requesting a refund for one of my summer semester subjects?
+    - I'm considering dropping one of my summer courses. Can you explain the refund procedure for such cases?
+    - Can I get a refund for one subject if my circumstances change, but I want to continue with the others?
+    - How much of a refund can I expect if I drop just one of my summer semester subjects?
+    - Is there a maximum number of subjects for which I can request refunds in the summer semester?
+    - What documentation or forms do I need to submit to initiate a refund for a specific course in the summer?
+    - Can you clarify the refund eligibility criteria for individual summer semester subjects?
+    - If I decide to withdraw from one course in the summer semester, how will it affect my tuition and fees?
+    - Are there any restrictions on which subjects I can request refunds for in the summer semester?
+    - How can I calculate the refund amount if I choose to drop one of my summer courses?
+    - What is the university's refund policy for summer semester fees?
+    - Can I get a refund for my summer semester tuition and fees if I need to withdraw from all my courses?
+    - How do I initiate the process for a refund of my summer semester fees?
+    - Is there a deadline by which I need to request a refund for my summer semester fees?
+    - Are there any circumstances under which the university automatically issues a refund?
+    - What fees are eligible for a refund in the summer semester?
+    - Can I request a refund for fees associated with campus services, such as housing or meal plans, if I no longer need them during the summer?
+    - Are there any non-refundable fees that I should be aware of for the summer semester?
+    - How long does it typically take to process a refund for summer semester fees?
+    - Can I track the status of my refund request for the summer semester online?
+    - If I've already paid my summer semester fees but need to withdraw, when can I expect to receive my refund?
+    - Are there any delays in refund processing during the summer semester compared to the regular academic year?
+    - What method is used to issue refunds for summer semester fees – check, direct deposit, or another option?
+    - Can I request an expedited refund for my summer semester fees if I have urgent financial needs?
+    - 
