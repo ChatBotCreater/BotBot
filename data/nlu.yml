@@ -160,6 +160,8 @@ nlu:
     - what is self study mode?
 - intent: inquire_about_fees_for_improvement_and_backlog in summer sem
   examples: |
+    - what is the fees for summer term ?
+    - what is the fees for summer semester backlog?
     - What is the fee for improvement in the summer semester?
     - How much do I need to pay for improving my grades in the summer semester?
     - Is there a specific fee structure for backlog cases in the summer semester?
