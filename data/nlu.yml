@@ -1,8 +1,5 @@
 version: "3.1"
-
 nlu:
-# Intent Greet 
-
 - intent: greet
   examples: |
     - hey
@@ -18,9 +15,8 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
-
-# Intent Good Bye
+    - hlo
+    - hyy
 - intent: goodbye
   examples: |
     - cu
@@ -33,9 +29,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
-
-# intent Registration details - forms and general timings 
 - intent: registration_details
   examples: |
     - where can i register for summer term ?
@@ -58,7 +51,8 @@ nlu:
     - Is there a registration guide or handbook available?
     - Explain the registration fee payment process an forms.
     - What is the registration confirmation process?
-
+    - i want to register for Summer term where should i register?
+    - when can i register for summer term?
 - intent: inquire_about_E_grade_self_study
   examples: |
     - Can students with E grades opt for self-study?
@@ -85,7 +79,8 @@ nlu:
     - What's the threshold marks for E grade students to choose self-study?
     - Can E grade students switch to regular mode if they have low marks?
     - Is self-study available for E grade students who scored below 25?
-
+    - can i opt for self study mode if having E grade?
+    - when i can take self study mode in E grade?
 - intent: inquire_about_self_study
   examples: |
     - Is self-study allowed for subjects in summer sem
@@ -101,7 +96,7 @@ nlu:
     - What steps can I take to determine my eligibility for self-study mode?
     - Are there specific guidelines or criteria I should follow to assess my eligibility for self-study mode?
     - How do I verify whether I meet the requirements for self-study mode?
-
+    - when i am eligible for self study mode?
 - intent: inquire_about_fees_thesis_submission
   examples: |
     - What is the thesis submission fee for the summer semester?
@@ -118,7 +113,8 @@ nlu:
     - How much do I need to pay for thesis submission?
     - Is there a fee for submitting a thesis?
     - Can you provide information on the thesis submission fee structure?
-
+    - what is the fees for thesis submission in summer term?
+    - how much do i need to pay for thesis submission?
 - intent: inquire_about_regular_mode_of_study
   examples: |
     - What are the criteria for students to be eligible for the regular mode of study?
@@ -140,18 +136,13 @@ nlu:
     - What are my options for mode of study if I have an X grade?
     - What are the different modes of study that I can choose from if I have an X grade?
     - How do I choose the right mode of study for me if I have an X grade?
-    - Which mode can i take if i have F grade?
     - What is the mode of study that is available to me if I have an F grade?
     - What are my options for mode of study if I have an F grade?
     - What are the different modes of study that I can choose from if I have an F grade?
     - How do I choose the right mode of study for me if I have an F grade?
-    - Are there any eligibility criteria for the regular mode of study?
-    - Can you clarify the eligibility criteria for students with B/B-/C/C- grades in the regular mode?
-    - Can you explain the eligibility criteria for regular-study mode?
     - Can I apply for regular study mode?
-    - Can I improve my grades during the summer semester in regular study mode?
-    - How can I check my eligibility for regular study mode?
-
+    - which mode can i take with grade RA
+    - am i eligible for regular mode if having F grade?
 - intent: modes_of_study_in_summer_sem
   examples: |
     - Can you explain the difference between self-study and regular study modes?
@@ -163,7 +154,9 @@ nlu:
     - what is difference between self study mode and reugular study mode?
     - How is self study Mode different from regular mode?
     - In what modes can i take subjects in summer sem ?
-
+    - modes of study i can opt in summer term?
+    - what is regular mode?
+    - what is self study mode?
 - intent: inquire_about_fees_for_improvement_and_backlog in summer sem
   examples: |
     - What is the fee for improvement in the summer semester?
@@ -185,7 +178,6 @@ nlu:
     - What is the specific fee amount for addressing backlog subjects in the summer semester?
     - Is the fee for improvement and backlog clearance the same for all subjects in the summer semester?
     - Can you provide the exact fee amounts for improvement and backlog cases in the summer semester?
-
 - intent: inquire_about_subject_limit_per_mode
   examples: |
     - What's the maximum number of subjects I can enroll in for self-study?
@@ -240,7 +232,6 @@ nlu:
     - Subject limit for self-study and regular academic terms?
     - How many courses am I allowed to register for in regular mode?
     - Subject quotas for self-study and regular study programs.
-
 - intent: inquire_about_project_based_course_availability
   examples: |
     - Are project-oriented classes available in the summer term?
@@ -283,8 +274,7 @@ nlu:
     - Do you offer any advanced project courses in the winter term?
     - How are project courses in self-study mode structured during the summer term?
     - I'd like to know more about the curriculum of Engineering Design-1 for the summer term.
-
-- intent : inquire_about_max_grade_achieveable_summer_sem
+- intent: inquire_about_max_grade_achieveable_summer_sem
   examples: |
     - What is the highest achievable grade in the summer semester?
     - Can I earn an A+ grade in the summer semester?
@@ -329,7 +319,6 @@ nlu:
     - Is there a grade curve for the summer semester?
     - What's the highest possible grade I can earn in a summer course?
     - Do summer grades impact my overall academic performance?
-
 - intent: inquire_about_teacher_assignment_for_modes
   examples: |
     - How are instructors assigned when a course is offered in both Self-study and Regular modes?
@@ -353,7 +342,6 @@ nlu:
     - When a course is offered in both Self-study and Regular modes, who conducts MST, EST, and Sessional classes?
     - Describe the process of assigning teachers for courses that run in both Self-study and Regular modes.
     - How are instructors determined for courses with both Self-study and Regular study options?
-
 - intent: inquire_about_dropping_subject_in_summer_sem
   examples: |
     - Is it possible to remove a course from my summer semester schedule?
@@ -375,7 +363,6 @@ nlu:
     - How do I officially request to drop a subject during the summer semester?
     - Are there specific forms or documentation required when dropping a subject in the summer semester?
     - Can I drop a subject in the summer semester?
-
 - intent: inquire_about_course_re_enrollment_after_improvement
   examples: |
     - Can I retake a course to improve my grade if I've already improved it once?
@@ -428,8 +415,7 @@ nlu:
     - Is there a restriction on the number of times I can improve my grade?
     - What happens if I've already improved my grade to a A/A-/B/B-/C/C- or an A/A-/B/B-/C/C- and want to improve it again?
     - Can I keep trying to enhance my grade after reaching a certain level?
-
-- intent: inquire_about_course_re_enrollment_backlog 
+- intent: inquire_about_course_re_enrollment_backlog
   examples: |
     - How can I re-enroll in a course after having a backlog?
     - What's the procedure for re-enrollment in a course if I have a backlog?
@@ -461,7 +447,6 @@ nlu:
     - Can I appeal or request special consideration if I wish to re-enroll after receiving an E/X grade?
     - Will the new grade replace the previous E/X grade if I successfully re-enroll in a course?
     - Can I re-enroll in a course for which I received an E/X grade even if it's no longer part of the curriculum?
-
 - intent: tenure_of_summer_term
   examples: |
     - When does the summer term start and end?
@@ -492,24 +477,23 @@ nlu:
     - When does the summer term's academic calendar begin and end?
     - What is the summer term's academic schedule like in terms of start and end dates?
     - How can I prepare for the start of the summer term?
-    - What are the key dates I should remember for the summer term? 
-
+    - What are the key dates I should remember for the summer term?
 - intent: time_table
   examples: |
-    -Can you provide me with the summer semester timetable and schedule?
-    -I need to know the timetable for the summer semester.
-    -Where can I find the timetable for the summer semester courses?
-    -Tell me about the schedule for the summer semester.
-    -How can I access the summer semester timetable?
-    -Provide me with the link to the summer semester timetable.
-    -Is the summer semester timetable available online?
-    -Can you direct me to the summer semester timetable?
-    -I want to check the timetable for my summer semester courses.
-    -What's the link to the summer semester timetable?
-    -How do I access the timetable for my summer semester classes?
-    -Tell me where I can find the summer semester timetable.
-    -Is there an online portal for the summer semester timetable?
-    -Can you provide me with the link to the summer semester's class schedule?
+    - Can you provide me with the summer semester timetable and schedule?
+    - I need to know the timetable for the summer semester.
+    - Where can I find the timetable for the summer semester courses?
+    - Tell me about the schedule for the summer semester.
+    - How can I access the summer semester timetable?
+    - Provide me with the link to the summer semester timetable.
+    - Is the summer semester timetable available online?
+    - Can you direct me to the summer semester timetable?
+    - I want to check the timetable for my summer semester courses.
+    - What's the link to the summer semester timetable?
+    - How do I access the timetable for my summer semester classes?
+    - Tell me where I can find the summer semester timetable.
+    - Is there an online portal for the summer semester timetable?
+    - Can you provide me with the link to the summer semester's class schedule?
     - I need to check my summer semester class timetable. How can I do that?
     - How do I access the summer semester class timetable online?
     - Tell me how to find the timetable for summer semester courses.
@@ -519,7 +503,6 @@ nlu:
     - Where do I go to see the summer semester timetable?
     - What's the link to the summer semester class schedule?
     - How can I find my summer semester class timetable online?
-
 - intent: asking_about_summer_semester
   examples: |
     - Description about summer semester?
@@ -537,7 +520,6 @@ nlu:
     - How does a summer semester differ from the regular academic year?
     - Who is eligible for the summer semester?
     - What are the eligibility criteria for the summer semester?
-
 - intent: inquire_about_eligibility_for_medal_scholarship_upon_upgradation
   examples: |
     - What happens to my scholarship if I upgrade my grades?
@@ -550,7 +532,6 @@ nlu:
     - Are there any changes in scholarship eligibility after upgrading?
     - What are the scholarship guidelines after grade improvement?
     - Can I receive a medal after upgrading my course grades?
-
 - intent: Upgrade_grade_decline_A_A-
   examples: |
     - Can I upgrade my grade from A- to A during the summer semester?
@@ -573,7 +554,6 @@ nlu:
     - Are there any resources or materials available to help me achieve an A from an A- this summer?
     - What's the process for upgrading a grade, and where can I get more information about it?
     - Can you provide examples of students who successfully upgraded their A- to an A in the summer semester, and how they did it?
-
 - intent: Grade_upgrade
   examples: |
     - Can I upgrade my grade from B to an A this semester?
@@ -624,7 +604,6 @@ nlu:
     - What resources are available to help me pass a course after receiving an F?
     - Can you provide a timeline for upgrading a grade from F to passing?
     - Are there any scholarships or incentives for students who successfully upgrade their grades from F to passing?
-
 - intent: refund_policy_summer_sem
   examples: |
     - What is the university's refund policy for summer semester fees?
@@ -656,14 +635,6 @@ nlu:
     - If I decide to withdraw from one course in the summer semester, how will it affect my tuition and fees?
     - Are there any restrictions on which subjects I can request refunds for in the summer semester?
     - How can I calculate the refund amount if I choose to drop one of my summer courses?
-    - What is the university's refund policy for summer semester fees?
-    - Can I get a refund for my summer semester tuition and fees if I need to withdraw from all my courses?
-    - How do I initiate the process for a refund of my summer semester fees?
-    - Is there a deadline by which I need to request a refund for my summer semester fees?
-    - Are there any circumstances under which the university automatically issues a refund?
-    - What fees are eligible for a refund in the summer semester?
-    - Can I request a refund for fees associated with campus services, such as housing or meal plans, if I no longer need them during the summer?
-    - Are there any non-refundable fees that I should be aware of for the summer semester?
     - How long does it typically take to process a refund for summer semester fees?
     - Can I track the status of my refund request for the summer semester online?
     - If I've already paid my summer semester fees but need to withdraw, when can I expect to receive my refund?

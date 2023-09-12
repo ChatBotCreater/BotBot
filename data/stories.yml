@@ -2,3 +2,34 @@ version: "3.1"
 
 stories:
 
+
+- story: Testing Manav
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: greet
+  - action: utter_greet
+  - intent: registration_details
+  - action: utter_registration_details
+  - intent: registration_details
+  - action: utter_registration_details
+  - intent: inquire_about_E_grade_self_study
+  - action: utter_inquire_about_E_grade_self_study
+  - intent: inquire_about_E_grade_self_study
+  - action: utter_inquire_about_E_grade_self_study
+  - intent: modes_of_study_in_summer_sem
+  - action: utter_inquire_about_self_study
+  - intent: inquire_about_fees_thesis_submission
+  - action: utter_inquire_about_fees_thesis_submission
+  - intent: inquire_about_fees_thesis_submission
+  - action: utter_inquire_about_fees_thesis_submission
+  - intent: inquire_about_regular_mode_of_study
+  - action: utter_inquire_about_regular_mode_of_study
+  - intent: inquire_about_regular_mode_of_study
+  - action: utter_inquire_about_regular_mode_of_study
+  - intent: tenure_of_summer_term
+  - action: utter_modes_of_study_in_summer_sem
+  - intent: modes_of_study_in_summer_sem
+  - action: utter_modes_of_study_in_summer_sem
+  - intent: modes_of_study_in_summer_sem
+  - action: utter_modes_of_study_in_summer_sem
