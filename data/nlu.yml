@@ -579,7 +579,7 @@ nlu:
     - Can i upgrade my grade from A-?
     - students with grade A are eligible for grade upgradation? 
     - Can i upgrade my grade from A- to A?
-on     
+     
 - intent: Grade_upgrade
   examples: |
 
