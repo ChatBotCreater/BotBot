@@ -16,6 +16,5 @@ stories:
   - action: utter_Grade_upgrade
   - intent: refund_policy_summer_sem
   - action: utter_refund_policy_summer_sem
-  - intent: inquire_about_fees_for_improvement_and_backlog in summer sem
   - intent: refund_policy_summer_sem
   - action: utter_refund_policy_summer_sem
