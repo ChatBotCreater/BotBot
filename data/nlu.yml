@@ -233,6 +233,10 @@ nlu:
     - Subject limit for self-study and regular academic terms?
     - How many courses am I allowed to register for in regular mode?
     - Subject quotas for self-study and regular study programs.
+    - how many courses can i apply in summer sem?
+    - can i apply for 1/2/3/4/5/6/7/8/9/10 course in summer semester?
+    - how many courses can i opt in summer semester?
+
 - intent: inquire_about_project_based_course_availability
   examples: |
     - Are project-oriented classes available in the summer term?
@@ -577,12 +581,10 @@ nlu:
     - can i upgrade from A- to A in summer term?
     - what if my grade is A .Can i go for upgradation ?
     - Can i upgrade my grade from A-?
-    - students with grade A are eligible for grade upgradation? 
+    - students with grade A are eligible for grade upgradation?
     - Can i upgrade my grade from A- to A?
-     
 - intent: Grade_upgrade
   examples: |
-
     - Can I upgrade my grade from B to an A this semester?
     - Is there an opportunity to improve my B grade to an A?
     - How can I work on raising my grade from B to an A?
@@ -628,7 +630,17 @@ nlu:
     - can i take course if having B grade?
     - is grade upgradation possible ?
     - Can I upgrade my grades ?
+    - i have scored B- grade ,can i go for grade upgradation?
+    - if i have c-,can i improve it .
+    - Can I upgrade my grade if I have C?
+    - Can i upgrade my grade if I have C-/B-/B/C/X/F?
+    - can my grades be improved.
+    - what if i want to upgrade my grades?
+    - if i have X grade can i improve my grades?
+    - can my grades be improved?
+    - Can I go for improvement of grades?
 
+    
 - intent: refund_policy_summer_sem
   examples: |
     - What is the university's refund policy for summer semester fees?

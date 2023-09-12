@@ -18,3 +18,8 @@ stories:
   - action: utter_refund_policy_summer_sem
   - intent: refund_policy_summer_sem
   - action: utter_refund_policy_summer_sem
+
+- story: interactive_story_1
+  steps:
+  - intent: Grade_upgrade
+  - action: utter_Grade_upgrade
