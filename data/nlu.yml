@@ -81,6 +81,7 @@ nlu:
     - Is self-study available for E grade students who scored below 25?
     - can i opt for self study mode if having E grade?
     - when i can take self study mode in E grade?
+    - how many marks are required to opt self study mode?
 - intent: inquire_about_self_study
   examples: |
     - Is self-study allowed for subjects in summer sem
@@ -531,6 +532,12 @@ nlu:
     - How does a summer semester differ from the regular academic year?
     - Who is eligible for the summer semester?
     - What are the eligibility criteria for the summer semester?
+    - what is grade upgradation?
+    - can i go for upgradation of scores?
+    - can my scores be increased ?
+    - can my scores be higher ?
+    - what if i want to upgrade my scores?
+    - what is the use of grade upgradation ?
 - intent: inquire_about_eligibility_for_medal_scholarship_upon_upgradation
   examples: |
     - What happens to my scholarship if I upgrade my grades?
@@ -567,9 +574,15 @@ nlu:
     - Are there any resources or materials available to help me achieve an A from an A- this summer?
     - What's the process for upgrading a grade, and where can I get more information about it?
     - Can you provide examples of students who successfully upgraded their A- to an A in the summer semester, and how they did it?
-    - can i upgrade from A to A- in summer term?
+    - can i upgrade from A- to A in summer term?
+    - what if my grade is A .Can i go for upgradation ?
+    - Can i upgrade my grade from A-?
+    - students with grade A are eligible for grade upgradation? 
+    - Can i upgrade my grade from A- to A?
+on     
 - intent: Grade_upgrade
   examples: |
+
     - Can I upgrade my grade from B to an A this semester?
     - Is there an opportunity to improve my B grade to an A?
     - How can I work on raising my grade from B to an A?
@@ -584,8 +597,6 @@ nlu:
     - Are there any courses or workshops aimed at improving a B- to B?
     - Can I retake exams or assignments to upgrade my B- to B?
     - What resources are available to help me achieve a B from a B-?
-    - Can you provide a timeline for upgrading a grade from B- to B?
-    - Are there any scholarships or incentives for students who successfully upgrade their grades from B- to B?
     - Can I upgrade my grade from C to a B this semester?
     - Is there an opportunity to improve my C grade to a B?
     - How can I work on raising my grade from C to a B?
@@ -593,7 +604,6 @@ nlu:
     - Can you provide guidance on upgrading my C grade to a B?
     - What steps should I take to upgrade my grade from C to B?
     - Can I retake specific courses to boost my C to a B?
-    - Are there any scholarships or incentives for students who upgrade their grades from C to B?
     - Is it possible to upgrade my grade from C- to C this term?
     - How can I work on improving my C- to a C?
     - Can you suggest strategies for upgrading my C- to C?
@@ -601,7 +611,6 @@ nlu:
     - Can I retake exams or assignments to upgrade my C- to C?
     - What resources are available to help me achieve a C from a C-?
     - Can you provide a timeline for upgrading a grade from C- to C?
-    - Are there any scholarships or incentives for students who successfully upgrade their grades from C- to C?
     - Can I upgrade my grade from X to a passing grade this semester?
     - Is there an opportunity to change my grade from X to a passing grade?
     - How can I work on raising my grade from X to a passing grade?
@@ -609,7 +618,6 @@ nlu:
     - Can you provide guidance on upgrading my X grade to a passing grade?
     - What steps should I take to upgrade my grade from X to passing?
     - Can I retake specific courses or assignments to achieve a passing grade?
-    - Are there any scholarships or incentives for students who successfully upgrade their grades from X to passing?
     - Is it possible to upgrade my grade from F to a passing grade this term?
     - How can I work on improving my F to a passing grade?
     - Can you suggest strategies for upgrading my F to a passing grade?
@@ -617,8 +625,10 @@ nlu:
     - Can I retake exams or assignments to upgrade my F to a passing grade?
     - What resources are available to help me pass a course after receiving an F?
     - Can you provide a timeline for upgrading a grade from F to passing?
-    - Are there any scholarships or incentives for students who successfully upgrade their grades from F to passing?
-    - can i take course i f having B grade
+    - can i take course if having B grade?
+    - is grade upgradation possible ?
+    - Can I upgrade my grades ?
+
 - intent: refund_policy_summer_sem
   examples: |
     - What is the university's refund policy for summer semester fees?
