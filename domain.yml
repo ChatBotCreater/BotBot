@@ -73,6 +73,15 @@ responses:
 session_config:
   session_expiration_time: 60
 actions:
+- utter_refund_policy_summer_sem
+- utter_inquire_about_eligibility_for_medal_scholarship_upon_upgradation
+- utter_Upgrade_grade_decline_A_A-
+- utter_Grade_upgrade
+- utter_inquire_about_course_re_enrollment_backlog
+- utter_time_table
+- utter_inquire_about_course_re_enrollment_after_improvement
+- utter_tenure_of_summer_term
+- utter_inquire_about_dropping_subject_in_summer_sem
 - utter_greet
 - utter_registration_details
 - utter_inquire_about_E_grade_self_study

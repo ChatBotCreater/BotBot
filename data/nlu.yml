@@ -363,6 +363,7 @@ nlu:
     - How do I officially request to drop a subject during the summer semester?
     - Are there specific forms or documentation required when dropping a subject in the summer semester?
     - Can I drop a subject in the summer semester?
+    - can i drop subject in summer term?
 - intent: inquire_about_course_re_enrollment_after_improvement
   examples: |
     - Can I retake a course to improve my grade if I've already improved it once?
@@ -415,6 +416,7 @@ nlu:
     - Is there a restriction on the number of times I can improve my grade?
     - What happens if I've already improved my grade to a A/A-/B/B-/C/C- or an A/A-/B/B-/C/C- and want to improve it again?
     - Can I keep trying to enhance my grade after reaching a certain level?
+    - can i retake subject ?
 - intent: inquire_about_course_re_enrollment_backlog
   examples: |
     - How can I re-enroll in a course after having a backlog?
@@ -447,6 +449,7 @@ nlu:
     - Can I appeal or request special consideration if I wish to re-enroll after receiving an E/X grade?
     - Will the new grade replace the previous E/X grade if I successfully re-enroll in a course?
     - Can I re-enroll in a course for which I received an E/X grade even if it's no longer part of the curriculum?
+    - can i re enroll in subject ?
 - intent: tenure_of_summer_term
   examples: |
     - When does the summer term start and end?
@@ -478,6 +481,12 @@ nlu:
     - What is the summer term's academic schedule like in terms of start and end dates?
     - How can I prepare for the start of the summer term?
     - What are the key dates I should remember for the summer term?
+    - i wish to leave the summer term ?
+    - what is tenure of summer term?
+    - when will summer term start?
+    - when summer term will end?
+    - what is duration of summer term?
+    - what is the time table for summer term?
 - intent: time_table
   examples: |
     - Can you provide me with the summer semester timetable and schedule?
@@ -503,6 +512,8 @@ nlu:
     - Where do I go to see the summer semester timetable?
     - What's the link to the summer semester class schedule?
     - How can I find my summer semester class timetable online?
+    - where i can get time table for summer term?
+    - can you give me the time table for summer term?
 - intent: asking_about_summer_semester
   examples: |
     - Description about summer semester?
@@ -532,6 +543,8 @@ nlu:
     - Are there any changes in scholarship eligibility after upgrading?
     - What are the scholarship guidelines after grade improvement?
     - Can I receive a medal after upgrading my course grades?
+    - am i elogible for medal if taking summer term?
+    - can i get medal if i qualified in summer term?
 - intent: Upgrade_grade_decline_A_A-
   examples: |
     - Can I upgrade my grade from A- to A during the summer semester?
@@ -554,6 +567,7 @@ nlu:
     - Are there any resources or materials available to help me achieve an A from an A- this summer?
     - What's the process for upgrading a grade, and where can I get more information about it?
     - Can you provide examples of students who successfully upgraded their A- to an A in the summer semester, and how they did it?
+    - can i upgrade from A to A- in summer term?
 - intent: Grade_upgrade
   examples: |
     - Can I upgrade my grade from B to an A this semester?
@@ -604,6 +618,7 @@ nlu:
     - What resources are available to help me pass a course after receiving an F?
     - Can you provide a timeline for upgrading a grade from F to passing?
     - Are there any scholarships or incentives for students who successfully upgrade their grades from F to passing?
+    - can i take course i f having B grade
 - intent: refund_policy_summer_sem
   examples: |
     - What is the university's refund policy for summer semester fees?
@@ -642,3 +657,6 @@ nlu:
     - What method is used to issue refunds for summer semester fees – check, direct deposit, or another option?
     - Can I request an expedited refund for my summer semester fees if I have urgent financial needs?
     - 
+    - can i take refund if i drop the summer term?
+    - i want to take refund of fees i dont want to continue this summer semester sucks?
+    - i want to get back my fees?
